@@ -13,6 +13,7 @@ namespace SCSHomePage.Models
         [DisplayName("お名前")]
         public string Oname { get; set; }
 
+        [Required]
         [DisplayName("E-mail")]
         public string Email { get; set; }
 
