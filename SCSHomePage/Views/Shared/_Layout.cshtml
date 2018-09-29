@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Style/images/logo4.png" type="image/x-icon">
+    <meta name="description" content="">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet" href="../Style/web/assets/mobirise-icons/mobirise-icons.css">
+    <link rel="stylesheet" href="../Style/tether/tether.min.css">
+    <link rel="stylesheet" href="../Style/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Style/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../Style/bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="../Style/animatecss/animate.min.css">
+    <link rel="stylesheet" href="../Style/socicon/css/styles.css">
+    <link rel="stylesheet" href="../Style/css/style.css">
+    <link rel="stylesheet" href="../Style/css/mbr-additional.css">
+</head>
+<body>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year SCS - All Rights Reserved</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <script src="../Style/web/assets/jquery/jquery.min.js"></script>
+    <script src="../Style/popper/popper.min.js"></script>
+    <script src="../Style/tether/tether.min.js"></script>
+    <script src="../Style/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../Style/smoothscroll/smooth-scroll.js"></script>
+    <script src="../Style/parallax/jarallax.min.js"></script>
+    <script src="../Style/viewportchecker/jquery.viewportchecker.js"></script>
+    <script src="../Style/ytplayer/jquery.mb.ytplayer.min.js"></script>
+    <script src="../Style/vimeoplayer/jquery.mb.vimeo_player.js"></script>
+    <script src="../Style/bootstrapcarouselswipe/bootstrap-carousel-swipe.js"></script>
+    <script src="../Style/theme/js/script.js"></script>
+    <script src="../Style/slidervideo/script.js"></script>
+    <script src="../Style/formoid/formoid.min.js"></script>
+
+    <input name="animation" type="hidden">
+</body>
+</html>
